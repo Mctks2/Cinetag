@@ -1,23 +1,33 @@
-import { Banner } from "components/Banner";
-import { Titulo } from "components/Titulo";
-import { Card } from "components/Card";
-import videos from 'json/db.json';
-import styles  from "./Inicio.module.css";
+import Banner from "components/Banner";
+import Card from "components/Card";
+import Titulo from "components/Titulo";
+import { useEffect, useState } from "react";
+import styles from './Inicio.module.css';
 
-export function Inicio() {
-  return (
-    <>
+function Inicio() {
+    const [videos, setVideos] = useState([]);
 
-      <Banner imagem="home" />
-      <Titulo>
-        <h1>Um lugar para guardar seus vídeos e filmes!</h1>
-      </Titulo>
-      <section className={styles.container}>
-        {videos.map((video) => { //aplica uma função a cada item do array e retorna um novo array
-          return <Card {...video} key={video.id} />; // o operador spread (...) está sendo usado para passar todas as propriedades do objeto video como props individuais para o componente Card. Isso é conhecido como desestruturação com o operador spread.
-        })}
-      </section>
-      
-    </>
-  );
+    useEffect(() => {
+        fetch('https://my-json-server.typicode.com/Mctks2/cinetag-api/videos')
+            .then(resposta => resposta.json())
+            .then(dados => {
+                setVideos(dados)
+            })
+    }, [])
+
+    return (
+        <>
+            <Banner imagem="home" />
+            <Titulo>
+                <h1>Um lugar para guardar seus vídeos e filmes!</h1>
+            </Titulo>
+            <section className={styles.container}>
+                {videos.map((video) => {
+                    return <Card {...video} key={video.id} />
+                })}
+            </section>
+        </>
+    )
 }
+
+export default Inicio;
