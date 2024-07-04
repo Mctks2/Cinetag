@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# CineTag
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CineTag é uma aplicação onde os usuários podem favoritar e assistir vídeos de forma intuitiva. Na página principal, os usuários podem favoritar vídeos clicando no ícone de coração, que ficará escuro. Esses vídeos são listados na aba "Favoritos". Além disso, ao clicar em qualquer banner de vídeo, o usuário é direcionado para uma página de "player" onde o vídeo é carregado para reprodução.
 
-## Available Scripts
+## Funcionalidades
+Favoritar Vídeos: Adicione vídeos aos seus favoritos com um clique.
+Aba Favoritos: Acesse facilmente seus vídeos favoritos.
+Player de Vídeo: Reproduza vídeos clicando nos banners, seja na página principal ou na aba de favoritos.
 
-In the project directory, you can run:
+## 🛠️ Tecnologias utilizadas
 
-### `npm start`
+- CSS-Modules
+- React.js
+- Node.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚧 Layout
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a href="https://www.figma.com/design/UtiurQgr5yH1ClbLzDqVHl/2802---React%3A-Praticando-React-com-Js?node-id=12-2&t=4uLwuYmkq3nfhbiS-0" target="_blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎬 Imagens / Vídeos
+</a>![tela-cinetag](https://github.com/Mctks2/cinetag/assets/62295808/25a51d37-3e89-4602-b280-b393aff6b6b3)
